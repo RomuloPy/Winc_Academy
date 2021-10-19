@@ -37,6 +37,7 @@ li{
     display: inline;
     font: bold 20px Verdana;
     color: azure;
+    margin: 20px;
 }
 
 ul a{
