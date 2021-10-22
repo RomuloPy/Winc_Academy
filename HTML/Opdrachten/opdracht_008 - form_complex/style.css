@@ -22,7 +22,7 @@ form{
     color: white;
 }
 
-form label{
+.data{
     width: 100px;
     display: inline-block;
    
