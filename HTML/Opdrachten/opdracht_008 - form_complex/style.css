@@ -1,0 +1,36 @@
+body{
+    background-color: #2F303A;
+}
+
+.form_attr{
+    border: 1px black solid;
+    width: 500px;
+    margin-left: 37%;
+    margin-top: 5%;
+    padding: 10px;
+}
+header{
+    font: bold 40px Verdana;
+    text-align: center;
+    padding: 4%;
+    color: black;
+    margin: 10px;
+    
+}
+
+form{
+    color: white;
+}
+
+form label{
+    width: 100px;
+    display: inline-block;
+   
+}
+
+
+footer{
+    font: italic 15px Verdana;
+    text-align: center;
+    color: white;
+}
