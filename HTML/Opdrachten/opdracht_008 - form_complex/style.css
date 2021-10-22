@@ -34,3 +34,8 @@ footer{
     text-align: center;
     color: white;
 }
+
+button{
+    width: 49%;
+    height: 70px;
+}
