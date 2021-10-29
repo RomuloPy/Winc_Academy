@@ -1,0 +1,41 @@
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+
+body {
+    background-color: #2F303A;
+    width: 320px;
+    margin: 10px;
+}
+.container {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+h2 {
+    
+    font: normal 15px poppins;
+    padding-left: 25px;
+    margin-top: 0.5px;
+    margin-bottom: 20px;
+
+    
+}
+
+h3 {
+    font: normal 10px poppins;
+}
+
+footer {
+    width: 320px;
+    font: italic 20px poppins;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-top: 20px;
+    
+    
+}
