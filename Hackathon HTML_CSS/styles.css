@@ -27,6 +27,7 @@ h2 {
    width: 320px;
    display: flex;
    justify-content: space-evenly;
+   margin-bottom: 20px;
 }
  
 li {
@@ -109,6 +110,67 @@ footer {
     margin-top: 10%;
 }
 
+.band {
+    margin-top: 10px;
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.text-mireille {
+    font: normal 11px poppins;
+    color: white;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+.text-marcel {
+    font: normal 11px poppins;
+    color: white;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+
+.text-nico {
+    font: normal 11px poppins;
+    color: white;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+.text-romulo {
+    font: normal 11px poppins;
+    color: white;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.form-attr {
+    margin-top: 30px;
+    width: 320px;
+    font: normal 10px poppins;
+    color: white;
+}
+.data {
+    width: 100px;
+    display: inline-block;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+
 
 
 @media (min-width: 600px) {
@@ -144,7 +206,7 @@ footer {
         padding: 5px;
     }
 
-   picture {
+   .group_photo {
         width: 100%;
         display: flex;
         justify-content: center;
@@ -202,7 +264,7 @@ footer {
     }
 
     .videos {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -210,11 +272,97 @@ footer {
     }
 
     .video1{
-        width: 400px;
-        height: 400px;
+        width: 600px;
+        height: 600px;
         padding: 20px;
     }
 
+    .band {
+        margin: 5%;
+        padding: 40px;
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-areas: 
+            " mir tmir"
+            " mar tmar"
+            " nic tnic"
+            " rom trom";
+    }
     
+    .mireille {
+        width: auto;
+        grid-area: mir;
+        padding-top: 2%;
+    }
+    
+    .text-mireille {
+        grid-area: tmir;
+        width: auto;
+        font: normal 15px poppins;
+        color: white;    
+    }
+    
+    .marcel {
+        grid-area: mar;
+        padding-top: 2%;
+
+
+    }
+    .text-marcel {
+        grid-area: tmar;
+        font: normal 15px poppins;
+        color: white;
+    }
+    
+    .nico {
+        grid-area: nic;
+        padding-top: 2%;
+
+    }
+    .text-nico {
+        grid-area: tnic;
+        font: normal 15px poppins;
+        color: white;
+    }
+    
+    .romulo {
+        grid-area: rom;
+        padding-top: 2%;
+
+    }
+    .text-romulo {
+        grid-area: trom;
+        font: normal 15px poppins;
+        color: white;
+    }
+
+    .form-attr {
+        margin-top: 30px;
+        padding-left: 10%;
+        width: 600px;
+        font: normal 14px poppins;
+        color: white;
+    }
+
+    .data {
+        width: 100px;
+        display: inline-block;
+    }
+
+    .textarea {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 900px) {
+
+    .form-attr {
+    margin-top: 60px;
+    padding-left: 25%;
+    width: auto;
+    font: normal 15px poppins;
+    }
 
 }
