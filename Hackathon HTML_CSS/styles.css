@@ -356,8 +356,8 @@ footer {
 
 }
 
-@media (min-width: 900px) {
-
+@media (min-width: 1024px) {
+        
     .form-attr {
     margin-top: 60px;
     padding-left: 25%;
