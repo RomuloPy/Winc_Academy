@@ -6,7 +6,9 @@
 body {
     background-color: #2F303A;
     width: 320px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
+    
 }
 
 .banner {
