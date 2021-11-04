@@ -2,7 +2,7 @@
     font-family: poppins;
     src: url(/fonts/Poppins/Poppins-Light.ttf);
 }
-
+ 
 body {
     background-color: #2F303A;
     width: 320px;
@@ -218,6 +218,7 @@ footer {
 
 
     footer {
+        margin-top: 20px;
         width: auto;
         font: italic 20px poppins;
         letter-spacing: 40px;
@@ -299,6 +300,7 @@ footer {
     }
     
     .text-mireille {
+        padding-top: 3%;
         grid-area: tmir;
         width: auto;
         font: normal 15px poppins;
@@ -307,11 +309,12 @@ footer {
     
     .marcel {
         grid-area: mar;
-        padding-top: 2%;
+        padding-top: 70%;
 
 
     }
     .text-marcel {
+        padding-top: 10%;
         grid-area: tmar;
         font: normal 15px poppins;
         color: white;
@@ -366,5 +369,6 @@ footer {
     width: auto;
     font: normal 15px poppins;
     }
+
 
 }

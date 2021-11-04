@@ -1,0 +1,87 @@
+.visit_cards {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.visit_card {
+    display: grid;
+    width: 350px;
+    height: 220px;
+    border: 1px lightgrey solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 16% 10% 33% 33%;
+    grid-template-areas:
+        "h1 h1 h1 h1 h1 av"
+        "h3 h3 h3 h3 h3 av"
+        "ph ph ph ph ph ph"
+        "bu bu bu bu bu bu"
+
+}
+
+h1 {
+    height: auto;
+    grid-area: h1;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Assistant', sans-serif;
+    font: bold 28px assistant
+
+
+}
+
+h3 {
+    grid-area: h3;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.avatar {
+    grid-area: av;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.phrase {
+    grid-area: ph;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Assistant', sans-serif;
+    font: normal darkgrey 15p;
+}
+
+
+.buttons {
+    grid-area: bu;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
+    
+}
+
+.approve,
+.decline {
+    
+    height: 40px;
+    width: 150px;
+    border: 2px green solid;
+    color: green;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif;
+    font: bold 15px;
+    align-self: center;
+    
+}
+
+.decline {
+    border: 2px red solid;
+    color: red;
+}
