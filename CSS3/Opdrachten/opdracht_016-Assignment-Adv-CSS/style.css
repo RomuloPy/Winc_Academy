@@ -1,0 +1,93 @@
+body {
+  background: #c3cfe2;
+  /*
+    .text{
+        width: 80%;
+        height: 600px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border: 1px lightgrey solid;
+        border-radius: 20px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: white;
+    }
+
+    footer{
+        background-color: #686de0;
+        
+        text-align: center;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        .foot-text1{
+            color: white;
+            padding-top: 60px;
+        }
+
+    }*/
+}
+
+body .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .testimonial .text {
+  font: normal 25px Verdana;
+  color: #444343;
+  line-height: 1.5;
+  border: 1px lightgrey solid;
+  border-bottom: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  width: 60%;
+  height: 60vh;
+  padding: 4%;
+}
+
+body .testimonial .footer-main {
+  border: 1px lightgrey solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #686de0;
+  width: 68%;
+  text-align: center;
+  padding-top: -25px;
+  margin-top: -25px;
+}
+
+body .testimonial .footer-main img {
+  width: 35%;
+  border: 8px white solid;
+  border-radius: 50%;
+  margin-top: -25%;
+}
+
+body .testimonial .footer-main .foot-text1 {
+  color: white;
+  font: bold 25px verdana;
+  padding-top: 20px;
+}
+
+body .testimonial .footer-main .foot-text2 {
+  color: gray;
+  font: normal 20px verdana;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */
