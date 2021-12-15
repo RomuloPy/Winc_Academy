@@ -1,7 +1,9 @@
 console.log("Hello Winc Academy");
+
 let firstName = 'Rómulo'
 let lastName = 'Santos'
 console.log(firstName, lastName);
+
 let numbers = 4+4;
 let strings = "4"+"4";
 console.log(numbers)
