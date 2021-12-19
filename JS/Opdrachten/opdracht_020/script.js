@@ -2,8 +2,8 @@ const age = 21;
 const isFemale = false;
 const driverStatus = "bob"
 
-/*
-const age = 15;
+// Use the data here under, to test the opposite values:
+/*const age = 15;
 const isFemale = true;
 const driverStatus = "non-bob"
 */
